@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.BodyCorp {
+    height: 100%;
+}
+
+
+
+.containerButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 5vh;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+}
+
+.textOne {
+    padding: 10vh;
+    background-image: url("https://www.shutterstock.com/image-illustration/navy-sea-green-wave-blue-600nw-2476336237.jpg");
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+.headTextOne {
+    margin-top: 10vh;
+}
+
+.bodyTextOne {
+    display: flex;
+}
+
+.bodyTextOne p {
+    margin-right: 15vh;
+    padding-top: 5vh;
+    line-height: 4vh;
+    font-size: larger;
+    text-align: justify;
+}
+
+.containerMenu {
+    padding: 10px;
+    height: 100%;
+}
+
+.infoBoxes {
+    display: flex;
+    height: 100%;
+    align-items: stretch; /* Asegurar que todas las cajas tengan la misma altura */
+}
+
+.infoOne {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.TextTwo {
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 50px; /* Ajusta el valor según el espacio que desees */
+}
+
+.TextThree {
+    padding: 20px;
+    
+    margin-bottom: 50px; /* Ajusta el valor según el espacio que desees */
+}
+
+.TextFour {
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+    
+}
+.TextFive {
+    padding: 20px;
+    
+    
+}
+.bodyTextTwo {
+    height: 100%;
+}
+
+.boxes {
+    display: flex;
+    flex: 1;
+    min-width: calc(33.33% - 40px); /* Ajusta según tu diseño */
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(213, 244, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.boxesText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Asegura que el contenido tome toda la altura disponible */
+}
+
+.boxes h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.boxes p {
+    margin-top: 2vh;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.boxes a {
+    
+    text-decoration: none;
+    padding: 1vh;
+    background-color: rgb(18, 145, 209);
+    border-radius: 10%;
+    color: white;
+}
+
+.boxes:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.boxes:hover a {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.headBodyTextThree {
+    text-align: center;
+}
+
+.bodyTextThree {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background: none;
+    height: 100%;
+    padding: 2vh;
+}
+
+button:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.infoBoxesTwo {
+    display: flex;
+        height: 100%;
+        align-items: stretch; /* Asegurar que todas las cajas tengan la misma altura */
+        
+}
+
+.containerButtons img {
+    height: 40px; /* Ajusta la altura según el tamaño deseado */
+    margin-right: 20px; /* Espacio entre el logo y los botones */
+}
+
+
+
+
+
+
+
+
+
+
+
+#container{
+    
+    justify-content: center;
+   
+}
+#titleMenu{
+    
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+#Menu{
+    
+    
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sideBar{
+    padding: 50px;
+    width: 50%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; /* Coloca los divs en una columna */
+    background-color: lightblue;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-image: url(imgs/Canc.png);
+        background-size: cover;
+}
+
+.sideBar:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn-14{
+    background-color: lightblue;
+}
+.btn-14:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+#MenuTwo{
+    
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sideBar img{
+    width: 30%;
+}
+
+.socialNets{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .buttonsNet{
+    display: flex;
+    flex: 1;
+    min-width: calc(33.33% - 40px); /* Ajusta según tu diseño */
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(213, 244, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .btnI{
+    width: 5%;
+  }
+
+  @media all and (max-width: 450px) {
+    .textOne {
+        padding: 2vh;
+        background-image: url("https://www.shutterstock.com/image-illustration/navy-sea-green-wave-blue-600nw-2476336237.jpg");
+        background-size: cover;
+        color: white;
+        width: 100%;
+    }
+    .bodyTextOne {
+        display: flex;
+        flex-direction:column;
+    }
+    .headTextOne {
+        margin-top: 20vh;
+    }
+    
+    .bodyTextOne p {
+        margin-right: 0;
+        padding-top: 5vh;
+        line-height: 3vh;
+        font-size: larger;
+        text-align: justify;
+    }
+    .imageBodyTextOne img{
+        padding-top: 1vh;
+        width: 100%;
+    }
+    .infoBoxes {
+        display: flex;
+        height: 100%;
+        align-items: stretch; /* Asegurar que todas las cajas tengan la misma altura */
+        flex-direction: column;
+    }
+    .infoBoxesTwo {
+        display: flex;
+        height: 100%;
+        align-items: stretch; /* Asegurar que todas las cajas tengan la misma altura */
+        flex-direction: column;
+    }
+    #container{
+        padding: 50px;
+    }
+    #Menu{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .sideBar{
+        width: 100%;
+        margin: 10px;
+        background-image: url(imgs/Canc.png);
+        background-size: cover;
+    }
+  }
